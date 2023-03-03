@@ -1,0 +1,10 @@
+{
+    "major": {
+        "dependencyDashboardApproval": true
+    },
+    "reviewers": ["A7mooz"],
+    "lockFileMaintenance": {
+        "enabled": true,
+        "automerge": false
+    }
+}
