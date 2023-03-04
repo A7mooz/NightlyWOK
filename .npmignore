@@ -1,25 +1,28 @@
+# source files
 src/
-
 docs/
 
-.gitignore
-
+#config files
 .prettierignore
-
 .prettierrc
-
 vite.config.ts
-
 .eslintrc
+tsup.config.ts
+tsconfig*.json
+.commitlintrc.json
 
+# git files
+.gitignore
 .gitattributes
 
+# github config
 .github/
 
-CODE_OF_CONDUCT.md
-
+# test file
 tests/
 
-tsup.config.ts
+# pre-commit hooks
+.husky/
 
-tsconfig*.json
+# lock file
+pnpm-lock.yaml
