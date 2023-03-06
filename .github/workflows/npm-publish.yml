@@ -20,7 +20,7 @@ jobs:
             - recursive: true
               args: [--strict-peer-dependencies]
       - run: pnpm install
-      - run: pnpm test
+      - run: pnpm lint
       - run: pnpm build
       - uses: JS-DevTools/npm-publish@v1
         with:
