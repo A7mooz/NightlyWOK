@@ -1,6 +1,7 @@
 {
 	"compilerOptions": {
 		"target": "ESNext",
+		"module": "Node16",
 		"rootDir": "src",
 		"strict": true,
 		"alwaysStrict": true,
@@ -9,7 +10,6 @@
 		"experimentalDecorators": true,
 		"strictNullChecks": true,
 		"importsNotUsedAsValues": "error",
-		"moduleResolution": "node",
 		"skipLibCheck": true,
 		"declaration": true,
 		"allowSyntheticDefaultImports": true,

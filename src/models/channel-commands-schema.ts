@@ -1,0 +1,16 @@
+import { model, Schema } from 'mongoose';
+
+const channelCommandSchema = new Schema({
+	// guildId-commandName
+	_id: {
+		type: String,
+		required: true,
+	},
+	channels: {
+		type: [String],
+		required: true,
+	},
+});
+
+const name = 'channel-commands';
+export default model(name, channelCommandSchema);
