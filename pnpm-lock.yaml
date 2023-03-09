@@ -1,5 +1,8 @@
 lockfileVersion: 5.4
 
+overrides:
+    discord-api-types: 0.37.20
+
 specifiers:
     '@commitlint/cli': ^17.4.4
     '@commitlint/config-conventional': ^17.4.4
@@ -299,7 +302,7 @@ packages:
         dependencies:
             '@discordjs/util': 0.1.0
             '@sapphire/shapeshift': 3.8.1
-            discord-api-types: 0.37.35
+            discord-api-types: 0.37.20
             fast-deep-equal: 3.1.3
             ts-mixer: 6.0.3
             tslib: 2.5.0
@@ -324,7 +327,7 @@ packages:
             '@discordjs/util': 0.1.0
             '@sapphire/async-queue': 1.5.0
             '@sapphire/snowflake': 3.4.0
-            discord-api-types: 0.37.35
+            discord-api-types: 0.37.20
             file-type: 18.2.1
             tslib: 2.5.0
             undici: 5.20.0
@@ -1540,10 +1543,10 @@ packages:
             path-type: 4.0.0
         dev: true
 
-    /discord-api-types/0.37.35:
+    /discord-api-types/0.37.20:
         resolution:
             {
-                integrity: sha512-iyKZ/82k7FX3lcmHiAvvWu5TmyfVo78RtghBV/YsehK6CID83k5SI03DKKopBcln+TiEIYw5MGgq7SJXSpNzMg==,
+                integrity: sha512-uAO+55E11rMkYR36/paE1vKN8c2bZa1mgrIaiQIBgIZRKZTDIGOZB+8I5eMRPFJcGxrg16riUu+0aTu2JQEPew==,
             }
         dev: true
 
@@ -1560,7 +1563,7 @@ packages:
             '@discordjs/util': 0.1.0
             '@sapphire/snowflake': 3.4.0
             '@types/ws': 8.5.4
-            discord-api-types: 0.37.35
+            discord-api-types: 0.37.20
             fast-deep-equal: 3.1.3
             lodash.snakecase: 4.1.1
             tslib: 2.5.0
